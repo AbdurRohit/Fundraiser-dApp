@@ -1,6 +1,6 @@
 # Decentralized Fundraiser 🕊 Blockchain Application
 
-This repository contains a decentralized blockchain application developed during the [Hackathon Name] sponsored by Hedera. The application leverages the power of decentralized technologies to [brief description of the application's purpose].
+This repository contains a decentralized blockchain application developed during the MLH hackathon. The application leverages the power of decentralized technologies to solve the centralization of fund currency.
 
 ## Technologies Used
 
