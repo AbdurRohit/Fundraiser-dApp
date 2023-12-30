@@ -1,38 +1,58 @@
-.App {
+body{
+  font-family: 'Roboto', 'Oxygen';
+}
+.headline{
+  font-size: 400%;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  letter-spacing: 1ch;
+  color: rgb(252, 92, 92);
+  margin-top: 30px;
+  
+}
+
+.connect-btn {
+  float: right;
+  background-color: #1a237e; 
+  color: #ffffff; 
+  padding: 10px 20px; 
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-right: 10px;
+  transition: background-color 0.3s ease; 
+}
+
+.connect-btn:hover {
+  background-color: #00c853;
+}
+
+.donate-btn{
+  float: right;
+}
+
+p{
+  font-size: small;
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.card{
+  margin-top: 60px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.add-btn {
+  text-align: center;
+  width: 100px;
+  height: 100px;
+  display: block;
+  margin: auto;
+  background-color: rgb(255, 255, 255);
+  transition: box-shadow 0.3s ease-in-out, background-color 0.3s ease-in-out;
+  margin-top: 50px;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.add-btn:hover {
+  box-shadow: 0 0 10px 5px rgba(103, 239, 112, 0.7); /* Adjust the shadow as needed */
+  background-color: rgb(209, 247, 208);
 }
