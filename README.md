@@ -1,70 +1,79 @@
-# Getting Started with Create React App
+# Decentralized Fundraiser 🕊 Blockchain Application
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This repository contains a decentralized blockchain application developed during the [Hackathon Name] sponsored by Hedera. The application leverages the power of decentralized technologies to [brief description of the application's purpose].
 
-## Available Scripts
+## Technologies Used
 
-In the project directory, you can run:
+- **React JS:** The frontend of the application is built using React JS, a popular JavaScript library for building user interfaces.
 
+- **Solidity:** Smart contracts, the backbone of decentralized applications, are written in Solidity. Solidity is a programming language designed for developing smart contracts that run on the Ethereum Virtual Machine (EVM).
+
+- **Web3:** Web3.js is a JavaScript library for interacting with the Ethereum blockchain. It allows seamless communication between the frontend and smart contracts.
+
+- **Hedera Hashgraph (Hedera):** Hedera is used as the backend technology for this application. Hedera Hashgraph is a distributed ledger technology that provides fast, secure, and fair transactions.
+
+# Features
+
+## Hashgraph Consensus Integration:
+
+1. **Efficient and Secure Transactions:**
+   - Leverage the power of the hashgraph consensus algorithm for efficient and secure transaction processing.
+
+2. **High Transaction Throughput:**
+   - Benefit from near-perfect efficiency in bandwidth usage, allowing the application to handle hundreds of thousands of transactions per second.
+
+3. **Tamper-Proof Logging:**
+   - Ensure tamper-proof and verifiable logging of transactions with the Hedera Consensus Service.
+
+## Smart Contract Development with Solidity:
+
+1. **Trust Layers for Decentralized Applications:**
+   - Enable developers to build trust layers for decentralized applications using the Hedera Smart Contract service.
+
+2. **Solidity Programming:**
+   - Program in Solidity, a popular language for developing smart contracts.
+
+3. **Optimized Ethereum Virtual Machine (EVM):**
+   - Leverage the Besu Ethereum Virtual Machine (EVM) optimized for the Hedera network, providing low and predictable fees, a carbon-negative footprint, and high performance.
+
+## Token Management with Hedera Token Service:
+
+1. **Configurable Token Management:**
+   - Implement configurable, minting, and management of both fungible and non-fungible tokens on Hedera.
+
+2. **High Throughput Token Transactions:**
+   - Achieve high transaction throughput (10,000 transactions per second) with immediate settlement and low, fixed transaction costs.
+
+3. **Fine-Grained Control:**
+   - Offer fine-grained control over tokens and accounts, allowing for flexible configurations, including account KYC verification, freezing, and token supply management.
+## Getting Started
+
+1. **Clone the repository:**
+
+   ```bash
+   git clone https://github.com/AbdurRohit/Fundraiser-dApp
+   cd Fundraiser-dApp
+
+
+### `npm install`
+Install all the dependencies.
 ### `npm start`
 
 Runs the app in the development mode.\
 Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## Smart Contracts
 
-### `npm test`
+The smart contracts are located in the `contracts` directory. To deploy or interact with them, you can use tools like [Truffle](https://www.trufflesuite.com/truffle) or [Remix](https://remix.ethereum.org/).
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Hedera Integration
 
-### `npm run build`
+For detailed information on integrating with Hedera, please refer to the [Hedera documentation](https://docs.hedera.com/hedera/).
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## Acknowledgments
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+This project was developed as part of the MLH hackathon, generously sponsored by Hedera, flow and circle. We would like to express our gratitude for their support and the opportunities they provide for innovative development in the blockchain space.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-### `npm run eject`
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
