@@ -2,12 +2,19 @@ import './App.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import GroupExample from './utils/cards';
 import Add from './utils/add';
+import {connectToMetamask, switchToHederaNetworkethers} from './utils/metamaskService'
+import { Form } from 'react-bootstrap';
+import { ethers } from "ethers";
+
+
 
 function App() {
-  
+
   return (
    <>
-   <button className="connect-btn">Connect to metamask</button>
+      <button className="connect-btn" onClick={() => switchToHederaNetworkethers(ethers)}>
+      Connect to Metamask
+    </button>
     <div className="headline" >
       <b>HELP</b>
     </div>
@@ -18,5 +25,6 @@ function App() {
    </>
   );
 }
+
 
 export default App;

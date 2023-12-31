@@ -6,6 +6,7 @@ import Modal from 'react-bootstrap/Modal';
 import img1 from '../images/drc2_homecard.avif';
 import img2 from '../images/palestine_updated_homecard.avif';
 import img3 from '../images/WFP_STM_afghanistan6_homecard.avif';
+import donation from './donation';
 
 function MyVerticallyCenteredModal(props) {
   return (
@@ -53,7 +54,7 @@ function GroupExample() {
           <Button variant="primary" onClick={() => setModalShow(true)}>
         More info
       </Button>
-      <Button variant="success" className='donate-btn'>
+      <Button variant="success" className='donate-btn' onClick={() => donation()}>
         Donate
       </Button>
       <MyVerticallyCenteredModal
