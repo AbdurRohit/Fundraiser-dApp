@@ -6,7 +6,7 @@ body{
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
-  letter-spacing: 1ch;
+  /* letter-spacing: 1ch; */
   color: rgb(252, 92, 92);
   margin-top: 30px;
   
@@ -42,17 +42,30 @@ p{
 }
 
 .add-btn {
+ 
   text-align: center;
-  width: 100px;
-  height: 100px;
+  border-radius: 5px;
+  /* width: 100px;
+  height: 100px; */
   display: block;
-  margin: auto;
-  background-color: rgb(255, 255, 255);
+  border: #fcfbfb;
+  margin: 50px;
+  color: rgb(244, 243, 243);
+  background-color: #1e285e;
   transition: box-shadow 0.3s ease-in-out, background-color 0.3s ease-in-out;
-  margin-top: 50px;
+
 }
 
+
 .add-btn:hover {
-  box-shadow: 0 0 10px 5px rgba(103, 239, 112, 0.7); /* Adjust the shadow as needed */
-  background-color: rgb(209, 247, 208);
+  color: rgb(149, 148, 148);
+  background-color: #a5f48d;
+}
+
+.add-btn-div{
+  align-items: center;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
 }
