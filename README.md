@@ -2,7 +2,7 @@
 
 This repository contains a decentralized blockchain application developed during the MLH hackathon. The application leverages the power of decentralized technologies to solve the centralization of fund currency.
 
-## Technologies Used
+## Technologies Used![Alt text](image.png)
 
 - **React JS:** The frontend of the application is built using React JS, a popular JavaScript library for building user interfaces.
 
@@ -57,6 +57,9 @@ This repository contains a decentralized blockchain application developed during
 
 ### `npm install`
 Install all the dependencies.
+
+### `npm install`
+Set up the .env file
 ### `npm start`
 
 Runs the app in the development mode.\
