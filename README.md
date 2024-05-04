@@ -2,16 +2,26 @@
 
 This repository contains a decentralized blockchain application developed during the MLH hackathon. The application leverages the power of decentralized technologies to solve the centralization of fund currency.
 
-## Technologies Used![Alt text](image.png)
+## Technologies Used
 
-- **React JS:** The frontend of the application is built using React JS, a popular JavaScript library for building user interfaces.
+**React JS:** The frontend of the application is built using React JS, a popular JavaScript library for building user interfaces.
+  ![image](https://github.com/AbdurRohit/Fundraiser-dApp/assets/96853180/3d75bf0a-8cfa-4eac-b1fd-9fdbba9f1ce0)
+  ![image](https://github.com/AbdurRohit/Fundraiser-dApp/assets/96853180/3245f18b-1be6-4746-90f8-3406c0b154b6)
 
-- **Solidity:** Smart contracts, the backbone of decentralized applications, are written in Solidity. Solidity is a programming language designed for developing smart contracts that run on the Ethereum Virtual Machine (EVM).
 
-- **Web3:** Web3.js is a JavaScript library for interacting with the Ethereum blockchain. It allows seamless communication between the frontend and smart contracts.
+ **Solidity:** Smart contracts, the backbone of decentralized applications, are written in Solidity. Solidity is a programming language designed for developing smart contracts that run on the Ethereum Virtual Machine (EVM).
+ ![image](https://github.com/AbdurRohit/Fundraiser-dApp/assets/96853180/648f242b-7ead-4e2a-9691-ab9246de0cea)
 
-- **Hedera Hashgraph (Hedera):** Hedera is used as the backend technology for this application. Hedera Hashgraph is a distributed ledger technology that provides fast, secure, and fair transactions.
 
+ **Web3:** Web3.js is a JavaScript library for interacting with the Ethereum blockchain. It allows seamless communication between the frontend and smart contracts.
+ ![image](https://github.com/AbdurRohit/Fundraiser-dApp/assets/96853180/aa3ef3c0-6f69-450d-901d-e93541a45d71)
+
+
+
+ **Hedera Hashgraph (Hedera):** Hedera is used as the backend technology for this application. Hedera Hashgraph is a distributed ledger technology that provides fast, secure, and fair transactions.
+ ![image](https://github.com/AbdurRohit/Fundraiser-dApp/assets/96853180/53f91f11-5f1c-43bd-bc95-e0efc7596cc7)
+
+#### [More project explanation on Youtube ](https://www.youtube.com/watch?v=jzY2Oi_uESE)
 # Features
 
 ## Hashgraph Consensus Integration:
@@ -72,6 +82,7 @@ The smart contracts are located in the `contracts` directory. To deploy or inter
 ## Hedera Integration
 
 For detailed information on integrating with Hedera, please refer to the [Hedera documentation](https://docs.hedera.com/hedera/).
+
 
 ## Acknowledgments
 
